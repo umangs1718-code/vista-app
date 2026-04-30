@@ -1,0 +1,179 @@
+/* ============================= */
+/* GLOBAL STYLING */
+/* ============================= */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #62d1f3;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 200px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #5fdaff !important;
+}
+
+.navbar.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+
+.bg-success {
+  background: linear-gradient(135deg, #f9f9f9, #6c91ee) !important;
+}
+
+.bg-success h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.bg-success p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* ============================= */
+/* SERVICES SECTION */
+/* ============================= */
+
+.services-icon-wap {
+  background: #ffffff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.services-icon-wap:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.services-icon-wap i {
+  transition: 0.3s;
+}
+
+.services-icon-wap:hover i {
+  color: #326ae4;
+  transform: scale(1.2);
+}
+
+.services-icon-wap h2 {
+  font-weight: 600;
+}
+
+/* ============================= */
+/* BRANDS SECTION */
+/* ============================= */
+
+.brand-img {
+  max-height: 80px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.brand-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+footer {
+  background-color: #212529;
+}
+
+footer h2,
+footer h5 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer p,
+footer li {
+  font-size: 14px;
+  color: #76b5f4;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li:hover {
+  color: #030202;
+  cursor: pointer;
+}
+
+footer .text-success {
+  color: #8ea5eb !important;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* ============================= */
+/* MODAL */
+/* ============================= */
+
+.modal-content {
+  border-radius: 12px;
+}
+
+.btn-success {
+  background-color: #1845c2;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* ============================= */
+/* RESPONSIVE IMPROVEMENTS */
+/* ============================= */
+
+@media (max-width: 768px) {
+  .bg-success {
+    text-align: center;
+  }
+
+  .bg-success img {
+    margin-top: 20px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
