@@ -21,7 +21,7 @@ function FeaturedProducts() {
                 <h5>Torch Light</h5>
                 <div className="product-rating">★ ★ ★ ★ ★</div>
                 <p className="card-text">
-                  Explore our high-performance LED torch — durable, bright,
+                  Explore our high-performances LED torch — durable, bright,
                   and reliable. Perfect for outdoor adventures and emergencies.
                 </p>
                 <p className="product-price">$240.00</p>
