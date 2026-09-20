@@ -1,7 +1,7 @@
 function Categories() {
   return (
     <section className="container py-5 text-center category-section text-white">
-      <h2 className="fw-bold">Categories of The Months</h2>
+      <h2 className="fw-bold">Categories of The Month</h2>
 
       <div className="row mt-4">
         {/* Watches */}
